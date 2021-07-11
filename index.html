@@ -3,10 +3,44 @@
     <head>
         <meta charset="utf-8">
         <title>Yi Xuan's Personal Site</title>
+        <style>
+            .image-cropper {
+                width: 100px;
+                height: 100px;
+                position: relative;
+                overflow: hidden;
+                border-radius: 50%;
+            }
+
+            img {
+                display: inline;
+                margin: 0 auto;
+                height: 100%;
+                width: auto;
+            }
+        </style>
     </head>
     <body>
-        <img src="images/yixuan.jpg" alt="Yi Xuan's profile picture">
+        <div class="image-cropper">
+            <img src="images/yixuan.jpg" alt="Yi Xuan's profile picture" class="rounded">
+        </div>
         <h1>Yi Xuan Chia</h1>
+        <p><em><strong>BSc in Computing Science with Honors</strong>, Singapore Institute of Technology</em></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <hr>
+        <h3>Experience</h3>
+        <ul>
+            <li>Infrastructure Engineer<br>GovTech Singapore, Internship<br>Apr 2021 - Present</li>
+            <ul>
+                <li>Description 1</li>
+                <li>Description 2</li>
+            </ul><br>
+            <li>Data Analyst<br>GlaxoSmithKline plc, Internship<br>Nov 2017 - Feb 2018</li>
+            <ul>
+                <li>Established an automated interactive analytical dashboard capable of projecting sales and insights developed on a platform entirely new to the corporation. In addition, automated daily excel work tasks.</li>
+                <li>Aligned with consumer sales and management departments on usability and needs, resulting in an enhanced sales analytical dashboard, reducing total man-hours initially needed to garner these data by 75%</li>
+            </ul>
+        </ul>
     </body>
 
 </html>
