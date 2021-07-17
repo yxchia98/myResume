@@ -1,0 +1,25 @@
+.image-cropper {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#profileimg {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+body {
+    background-color: #E3FDFD;
+}
+
+hr {
+    width: 10%;
+    border-style: dotted none none none;
+    border-width: thick;
+    border-color: grey;
+}

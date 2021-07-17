@@ -4,22 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Yi Xuan's Personal Site</title>
-    <style>
-        .image-cropper {
-            width: 200px;
-            height: 200px;
-            position: relative;
-            overflow: hidden;
-            border-radius: 50%;
-        }
-
-        img {
-            display: inline;
-            margin: 0 auto;
-            height: 100%;
-            width: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="./resume.css">
 </head>
 
 <body>
@@ -27,7 +12,7 @@
         <tr>
             <td>
                 <div class="image-cropper">
-                    <img src="images/yixuan.jpg" alt="Yi Xuan's profile picture" class="rounded">
+                    <img id="profileimg" src="images/yixuan.jpg" alt="Yi Xuan's profile picture" class="rounded">
                 </div>
             </td>
             <td>
@@ -40,7 +25,7 @@
     </table>
     <hr>
     <h3>Work Experience</h3>
-    <table>
+    <table id="workexptable">
         <tr>
             <td>Apr 2021 - Present</td>
             <td><strong>Infrastructure Engineer</strong><br>GovTech Singapore, Internship</td>
@@ -74,7 +59,7 @@
     </table>
     <hr>
     <h3>Skills</h3>
-    <table cellspacing="10">
+    <table id="skillstable">
         <tr>
             <td>Java Development</td>
             <td>★★★★★</td>
