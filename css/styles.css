@@ -122,8 +122,9 @@ hr{
     
 }
 .copyright-txt{
-    color: #FFFFFF;
+    color: #EAF6F6;
     font-weight: lighter;
+    font-size: 0.75rem;
 }
 .contact-message{
     width: 40%;
